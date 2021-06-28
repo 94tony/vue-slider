@@ -5,10 +5,11 @@ new Vue(
         el: '#app',
         data: {
             photos:[
-                'img/pianeta1.jpg',
-                'img/pianeta2.jpg',
-                'img/pianeta3.jpg',
-                'img/pianeta4.jpg',
+               {path: 'img/pianeta1.jpg ', personaggio:'img/logo2.png'},
+               {path: 'img/pianeta2.jpg ', personaggio:'img/logo3.png'},
+               {path: 'img/pianeta3.jpg ', personaggio:'img/logo4.jpg'},
+               {path: 'img/pianeta4.jpg ', personaggio:'img/logo1.png'},
+              
                 
             ],
             pictureIndex:0,

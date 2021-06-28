@@ -28,3 +28,8 @@ position: relative;
 .slider-dots .current{
     color: blue;
 }
+
+.logo , .logo2{
+    width: 100px;
+    height: 60px;
+}
