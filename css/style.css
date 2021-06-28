@@ -1,5 +1,5 @@
 .slider{
-
+position: relative;
 }
 
 .slider-picture img{
@@ -9,4 +9,22 @@
 
 .arrow{
     font-size: 40px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items:center ;
+}
+
+
+.slider-dots{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: -80px;
+    color: whitesmoke;
+
+}
+
+.slider-dots .current{
+    color: blue;
 }

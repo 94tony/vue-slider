@@ -35,9 +35,17 @@ new Vue(
                 }else{
                 this.pictureIndex--;
                 }
+            },
+            isCurrentDot: function(index){
+                if(index===this.pictureIndex){
+                    return 'current';
+                }else{
+                    return '';
+                }
             }
 
-        },
+        }
+
 
     }
 )

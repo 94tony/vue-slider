@@ -20,14 +20,19 @@
         <div class="slider  container">
             <div class="row">
                 <div class="arrow col-2" @click="prev">
-                    <i class="far fa-arrow-alt-circle-left"></i>
+                    <i id="left-arrow" class="far fa-arrow-alt-circle-left"></i>
                 </div>
                 <div class="slider-picture col-8">
                     <img :src="photos[pictureIndex]" alt="picture">
+                    <div class="slider-dots">
+                        <i :class="isCurrentDot(index)" v-for="(img, index) in photos" class="fas fa-circle">
+                         
+                        </i>
+                    </div>
 
                 </div>
                 <div class="arrow col-2" @click="next">
-                    <i class="far fa-arrow-alt-circle-right"></i>
+                    <i  class="far fa-arrow-alt-circle-right"></i>
                 </div>
             </div>
         </div>
